@@ -10,7 +10,7 @@ Install the dependencies
 Run the project
 ### `npm start`
 
-
+<br /><br />
 **Note: Moment library is used to perform Date calculations https://momentjs.com/ 
 
 <br /><br /><br />
