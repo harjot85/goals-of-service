@@ -10,6 +10,9 @@ Install the dependencies
 Run the project
 ### `npm start`
 
+
+**Note: Moment library is used to perform Date calculations https://momentjs.com/ 
+
 <br /><br /><br />
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
