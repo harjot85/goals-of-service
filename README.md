@@ -1,3 +1,17 @@
+### STEP 1 
+Clone the project 
+### `git clone https://github.com/harjot85/goals-of-service.git`
+
+### STEP 2
+Install the dependencies 
+### `npm i`
+
+### STEP 3
+Run the project
+### `npm start`
+
+<br /><br /><br />
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
