@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Row, Col } from "reactstrap";
+import  moment  from "moment";
 
 function OrderHeader() {
   return (
@@ -51,19 +52,20 @@ class Orders extends Component {
     ]
   };
   render() {
+      console.log(moment('2018-05-05').format("MMMM DD, YYYY"))
     return (
       <>
-        <div style={{ margin: "5rem 25%" }}>
-          <div style={{ textAlign: "center" , marginBottom: "2rem" }}>
+        <div style={{ margin: "5rem 15%" }}>
+          <div style={{ textAlign: "center", marginBottom: "2rem" }}>
             <h2>Goals of Service</h2>
-            <hr/>
+            <hr />
           </div>
           <OrderHeader />
           {this.state.orders.map(order => (
             <Row key={order.number}>
               <Col>{order.number}</Col>
               <Col>{order.type}</Col>
-              <Col>{order.placedDate}</Col>
+              <Col>{moment(order.placedDate).format('MMMM DD, YYYY')}</Col>
               <Col>{order.expectedShipmentDate}</Col>
             </Row>
           ))}
